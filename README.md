@@ -10,3 +10,6 @@ The following video snippet shows the usage of the scheduler.
 
 ## Use
 This is a great way to track your work day and save your todo list and watch the colors to ensure you stay on task. 
+
+## Thank You
+Thank you to my classmates, office hours, and tutors for help on this assignment!
