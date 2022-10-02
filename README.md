@@ -6,7 +6,7 @@ This interactive list is a great way to track a daily todo list. Eeach feild is 
 ## Examples
 
 The following video snippet shows the usage of the scheduler.
-![]()
+![](./assets/images/Work_Day_Scheduler.gif)
 
 ## Use
 This is a great way to track your work day and save your todo list and watch the colors to ensure you stay on task. 
