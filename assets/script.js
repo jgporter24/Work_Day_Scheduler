@@ -24,14 +24,14 @@ function timeBlock() {
 
 //Save button for that timeblock
 
-saveBtn.on("click", function() {
-    
-// console log save button
-var time = $(this).siblings(".hour").text();
-var plan = $(this).siblings(".plan").val();
+saveBtn.on("click", function () {
 
-// save to the local stoarge
-localStorage.setItem(time, plan);
+    // console log save button
+    var time = $(this).siblings(".hour").text();
+    var plan = $(this).siblings(".plan").val();
+
+    // save to the local stoarge
+    localStorage.setItem(time, plan);
 
 });
 
@@ -39,14 +39,14 @@ localStorage.setItem(time, plan);
 
 function useDay() {
 
-    $(".hour").each(function() {
+    $(".hour").each(function () {
         var currHour = $(this).text();
         var currPlan = localStorage.getItem(currHour);
 
         //console.log(this);
         //console.log(currHour);
 
-        if(currPlan !== null) {
+        if (currPlan !== null) {
             $(this).siblings(".plan").val(currPlan);
         }
     });
