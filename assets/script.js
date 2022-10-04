@@ -43,8 +43,6 @@ function useDay() {
         var currHour = $(this).text();
         var currPlan = localStorage.getItem(currHour);
 
-        //console.log(this);
-        //console.log(currHour);
 
         if (currPlan !== null) {
             $(this).siblings(".plan").val(currPlan);
